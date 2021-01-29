@@ -62,14 +62,9 @@ input:focus{
     border:2px solid turquoise;
 }
 body{
-     background: #666600;  
-background: -webkit-linear-gradient(to right, #999966, #666600);  
-background: linear-gradient(to right, #999966, #666600); 
-
+    
+background-image: url("backgroundimg.jpg");
+margin: 0;
+padding: 0;
 }
 
-#mycontent{
-    background-image: url("1.jpg");
-    height: 20px;
-    padding: 300px;
-}
