@@ -62,8 +62,14 @@ input:focus{
     border:2px solid turquoise;
 }
 body{
-    background: #666600;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #999966, #666600);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #999966, #666600); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+     background: #666600;  
+background: -webkit-linear-gradient(to right, #999966, #666600);  
+background: linear-gradient(to right, #999966, #666600); 
 
+}
+
+#mycontent{
+    background-image: url("1.jpg");
+    height: 20px;
+    padding: 300px;
 }
